@@ -114,11 +114,11 @@
 	flex-direction: column;
 }
 
-.bg {
+.bgPalmTree {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 70%;
 	opacity: 0.3;
-	z-index: -1;
+	z-index: 1;
 }

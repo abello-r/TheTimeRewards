@@ -27,7 +27,7 @@ export default function LoggedOut() {
 	return (
 		<>
 			<div className={style.father}>
-				<img src="/palmtree.svg" alt="Logo" className={style.bg}/>
+				<img src="/palmtree.svg" alt="Logo" className={style.bgPalmTree}/>
 				<WordRotate
 					  className="text-4xl font-bold dark:text-white text-white text-center drop-shadow-sm font-[Dancing]"
 					  words={["¡Invita Amigos!", "¡Gana Recompensas!"]}
