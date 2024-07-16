@@ -33,4 +33,6 @@ export default function App() {
   );
 }
 
-// #5ae2d7 Main color (green)
+// #5AE2D7 Main color (green)
+// #FF99FF Secondary color (pink)
+// linear-gradient(0deg, #3c3c3c, #00d5ff) Background gradient
