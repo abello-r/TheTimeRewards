@@ -136,6 +136,7 @@ export default function LoggedIn() {
 				</div>
 				<p className="mt-[1.5rem] text-[#ffccff] text-[1rem] font-semibold flex justify-center">Introduce el código</p>
 
+				<button onClick={logout} type="button" className="mt-[1.5rem] bg-[#ffccff] text-[#ff99ff] py-2 px-4 rounded-md"> Cerrar Sesión </button>
 
 			</div>
 		</div>
@@ -145,7 +146,6 @@ export default function LoggedIn() {
 
 /*import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
 
-<button onClick={logout} type="button" className="mt-[1.5rem] bg-[#ffccff] text-[#ff99ff] py-2 px-4 rounded-md"> Cerrar Sesión </button>
 export default function LoggedIn() {
 	const { user, logout } = useKindeAuth();
 
