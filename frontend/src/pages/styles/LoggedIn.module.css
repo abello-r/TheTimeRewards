@@ -1,0 +1,23 @@
+.father {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	flex-direction: column;
+	padding: 10%;
+}
+
+.toaster {
+
+}
+
+.bgPalmTree {
+	position: absolute;
+	top: 30%;
+	right: 5%;
+	width: 35%;
+	opacity: 0.3;
+	z-index: 1;
+	transform: rotate(-10deg);
+}

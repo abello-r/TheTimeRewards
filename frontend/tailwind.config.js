@@ -66,35 +66,15 @@ module.exports = {
 					from: { height: "var(--radix-accordion-content-height)" },
 					to: { height: "0" },
 				},
+				"caret-blink": {
+					"0%,70%,100%": { opacity: "1" },
+					"20%,50%": { opacity: "0" },
+				  },
 			},
 			animation: {
 				"accordion-down": "accordion-down 0.2s ease-out",
 				"accordion-up": "accordion-up 0.2s ease-out",
-			},
-			animation: {
-				"spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
-				slide: "slide var(--speed) ease-in-out infinite alternate",
-			},
-			keyframes: {
-				"spin-around": {
-					"0%": {
-						transform: "translateZ(0) rotate(0)",
-					},
-					"15%, 35%": {
-						transform: "translateZ(0) rotate(90deg)",
-					},
-					"65%, 85%": {
-						transform: "translateZ(0) rotate(270deg)",
-					},
-					"100%": {
-						transform: "translateZ(0) rotate(360deg)",
-					},
-				},
-				slide: {
-					to: {
-						transform: "translate(calc(100cqw - 100%), 0)",
-					},
-				},
+				"caret-blink": "caret-blink 1.25s ease-out infinite",
 			},
 		},
 	},
